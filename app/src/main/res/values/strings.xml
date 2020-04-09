@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">COMEL App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="please_enter_your_email_address_to_reset_your_password">Please enter your email address to reset your password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="menu_upper">Menu</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="confirm_logout">Are you sure want to logout?</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>
