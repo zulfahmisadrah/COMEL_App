@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860520263905",
+    "firebase_url": "https://comelapp-d6827.firebaseio.com",
+    "project_id": "comelapp-d6827",
+    "storage_bucket": "comelapp-d6827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860520263905:android:41dd28d23b608ecd8247a0",
+        "android_client_info": {
+          "package_name": "com.zulfahmi.comelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860520263905-fetio2nan7e46107ajqabaug1ev2pofc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zulfahmi.comelapp",
+            "certificate_hash": "a6293722467f8af748d2030035c5344c493f875c"
+          }
+        },
+        {
+          "client_id": "860520263905-3ccv3nqtpkn1u3qfk98v1jsrbvq55v7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC85x-_1cHHJEwKlUeOydtxM2hOIz7SqeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860520263905-3ccv3nqtpkn1u3qfk98v1jsrbvq55v7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
