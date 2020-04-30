@@ -4,11 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.zulfahmi.comelapp.R
 
-
-class MyInfoActivity : AppCompatActivity() {
+class AdminActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_my_info)
+        setContentView(R.layout.activity_admin)
     }
 }

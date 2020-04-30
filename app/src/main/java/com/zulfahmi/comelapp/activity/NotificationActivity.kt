@@ -5,14 +5,15 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.zulfahmi.comelapp.R
 
-class MyGroupActivity : AppCompatActivity() {
+
+class NotificationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_my_group)
+        setContentView(R.layout.activity_notification)
         supportActionBar!!.setDisplayShowHomeEnabled(true)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.title = "My Group"
+        supportActionBar!!.title = "Notifications"
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

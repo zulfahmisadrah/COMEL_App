@@ -17,4 +17,19 @@
     <string name="title">Title</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="username_email">Username/Email</string>
+    <string name="notifications">Notifications</string>
+    <string name="_0_new_notification">0 new notification</string>
+    <string name="my_group">My Group</string>
+    <string name="profile">Profile</string>
+    <string name="detections">Detections</string>
+    <string name="_0_new_detections">1 new detections</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="dash">-</string>
+    <string name="notification">Notification</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="edit_profile">Edit</string>
+    <string name="no_data_yet">No data yet</string>
+    <string name="respond">Respond</string>
 </resources>

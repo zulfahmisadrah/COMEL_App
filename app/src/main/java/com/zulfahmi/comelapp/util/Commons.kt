@@ -6,6 +6,8 @@ import android.app.TimePickerDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.widget.EditText
+import android.widget.Toast
+import com.google.firebase.database.FirebaseDatabase
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -64,5 +66,33 @@ object Commons {
             if (word == temp[i]) count++
         }
         return count
+    }
+
+    fun deleteItemDialog(context: Context, childName: String, id: String) {
+        val dialogTitle = "Delete"
+        val dialogMessage = "Are you sure want to delete this data?"
+        val toastMessage = "Data has been deleted"
+        CustomConfirmDialog(context, dialogTitle, dialogMessage) {
+            FirebaseDatabase.getInstance().reference.child("/$childName/$id").removeValue()
+            Toast.makeText(context, toastMessage, Toast.LENGTH_SHORT).show()
+        }.show()
+    }
+
+    fun convertToDate(input: String): String {
+        val year = input.subSequence(0,4)
+        val monthNumber = Integer.parseInt(input.subSequence(4,6).toString())
+        val day = input.subSequence(6,8)
+        val hour = input.subSequence(8, 10)
+        val minute = input.subSequence(10, 12)
+
+        val monthDate = SimpleDateFormat("MMMM", Locale.getDefault())
+
+        val calendar = Calendar.getInstance()
+        calendar.set(Calendar.MONTH, monthNumber)
+        val month = monthDate.format(calendar.time)
+
+        val date = "$day $month $year $hour:$minute"
+
+        return date
     }
 }

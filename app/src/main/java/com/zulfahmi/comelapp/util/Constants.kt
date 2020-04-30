@@ -1,7 +1,8 @@
 package com.zulfahmi.comelapp.util
 
 object Constants {
-    @JvmStatic val TEXT_INFO: String = "info"
-    @JvmStatic val TEXT_GROUP: String = "group"
-    @JvmStatic val TEXT_MESSAGE: String = "message"
+    const val FIREBASE_USER = "user"
+    const val FIREBASE_GROUPS = "group"
+    const val FIREBASE_MESSAGES = "messages"
+    const val FIREBASE_DETECTIONS = "detections"
 }
