@@ -16,7 +16,7 @@ COMEL (Casing SOS Smartphone Millenial) is a smartphone case that makes the loca
 ### Installation:
 ```
 - git clone https://github.com/zulfahmisadrah/COMEL_App.git
-- Put your **google-service.json** in **app** folder
+- Put your google-service.json in app folder
 - Build the app in Android Studio
 ```
 
